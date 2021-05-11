@@ -156,3 +156,23 @@ More combined selectors
 - It is useful to apply striped style in tables
 - selector-1, selector-2, ... -> apply the same style to selector 1, 2 ... elems
 - selector > span:nth-of-type(2) -> 2° span element which are child of selector
+
+## CSS specificity
+
+[index.html](coder/index.html)
+[especificidade1.html](coder/especificidade1.html)
+
+[mdn](https://developer.mozilla.org/pt-BR/docs/Web/CSS/Specificity)
+
+- The outer element style has priority to its childs styles
+
+Specifities (order of priority):
+
+1. Rule with !important (Don't use this. Its use is discouraged)
+2. Selectors more specifics (like inline)
+3. Last rule processed
+
+- Notes
+1. The more specific style has priority from others
+2. A class is more specifc than a tag
+3. tag.class selector is more specific than .class selector

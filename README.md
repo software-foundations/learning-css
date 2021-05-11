@@ -144,3 +144,15 @@ Tips:
 2. class is reccomended to apply style to components
 3. Work with personalized attrs to work with javascript; classes to style
 4. Select an id perform faster than select an attrib
+
+More combined selectors
+
+- [attrib = something]
+- [attrib ~= something] -> <tag class = "something something2"></tag>. Childs
+- [attrib *= so] -> <tag class = "something something2"></tag>.  Get all *so...
+- selector:nth-child(1) -> get selector which is the first child of sthg
+- selector > :nth-child(odd) -> get selectors which are the odd children of sthg
+- selector > :nth-child(even) -> get selectors which are the even children of...
+- It is useful to apply striped style in tables
+- selector-1, selector-2, ... -> apply the same style to selector 1, 2 ... elems
+- selector > span:nth-of-type(2) -> 2° span element which are child of selector

@@ -115,3 +115,32 @@ Apply style to subset of the selected elements
 	    padding: 0px 5px 3px 3px;
 	}
 ```
+
+## CSS Selectors
+
+[index.html](coder/index.html)
+[selectors.html](coder/seletores.html)
+
+- * (all elements in page)
+- elem
+- .class
+- #id
+- [attrib]
+
+- :pseudo-class
+- ::pseudo-element
+
+Combining selectors
+- div + p (ADJACENT sibling)
+- div ~ p (GENERAL sibling)
+
+- div > p (child - first child element founded)
+- div > p (descendant - all child elements founded)
+
+
+
+Tips: 
+1. Id is useful to both navigate to anchors and style
+2. class is reccomended to apply style to components
+3. Work with personalized attrs to work with javascript; classes to style
+4. Select an id perform faster than select an attrib

@@ -53,3 +53,21 @@ CSS concepts
             font-weight: bold;
         }
 ```
+
+## Internal, external and inline CSS
+
+[index.html](coder/index.html)
+[origem.html](coder/origem.html)
+
+- The priority is the other of processing
+- Inline has higher priority, but is not recommended use inline css
+- Best practice: put css outside html component, in a external file
+
+- Link css tags are declared in head tag
+- Link: rel attr: is the relation (acts like type) of the external file linked
+
+```html
+	<head>
+		<link rel="stylesheet" href=".../externo.css">
+	</head>
+```

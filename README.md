@@ -58,6 +58,7 @@ CSS concepts
 
 [index.html](coder/index.html)
 [origem.html](coder/origem.html)
+[origem.html](coder/css/externo.css)
 
 - The priority is the other of processing
 - Inline has higher priority, but is not recommended use inline css
@@ -70,4 +71,47 @@ CSS concepts
 	<head>
 		<link rel="stylesheet" href=".../externo.css">
 	</head>
+```
+
+## Creating the .tag class
+
+[index.html](coder/index.html)
+[index.html](coder/classeTag.html)
+[origem.html](coder/css/tag.css)
+[origem.html](coder/js/tag.js)
+
+- The style applyed to a tag is passed to its children tags
+
+Apply style to subset of the selected elements
+```css
+	[selector] [child selector] {
+		...
+	}
+```
+
+```css
+	body {
+	    font-size: 40px;
+	}
+
+	ul, ol {
+	    padding: 0;
+	}
+
+	li {
+	    margin-left: 60px;
+	}
+
+	.tag {
+	    border: solid 4px;
+	    margin: 5px;
+	}
+
+	.tag label {
+	    color: #fff;
+	    font-size: 25px;
+	    vertical-align: top;
+	    margin-right: 10px;
+	    padding: 0px 5px 3px 3px;
+	}
 ```

@@ -221,6 +221,9 @@ Css styles that aren't passes to its children
 
 ## Box model
 
+[index.html](coder/index.html)
+[box.html](coder/box.html)
+
 - Margin -> Border -> Padding -> Content
 - Maring is the distance of the element to the other
 - Border is between Margin and Padding
@@ -234,4 +237,11 @@ Pagging shorthands
 	padding-top: 5px; /* 5 px of padding in up*/
 	padding: 5px 10px; /* 5 px of padding in up and down, 10 in left and right*/
 	padding: 1px 2px 3px 4px; /* 1 px in up; 2 in righ; 3 in down, 4 in left*/
+```
+
+Properties
+```css
+	selector {
+		float: left /* each element concat to the left of each outer elements*/
+	}
 ```

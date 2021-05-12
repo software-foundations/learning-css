@@ -176,3 +176,10 @@ Specifities (order of priority):
 1. The more specific style has priority from others
 2. A class is more specifc than a tag
 3. tag.class selector is more specific than .class selector
+
+[especificidade2.html](coder/especificidade2.html)
+
+[specificity calculator](https://specificity.keegan.st/)
+
+Specificity level
+- inline > id > class > attribute

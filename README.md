@@ -183,3 +183,38 @@ Specifities (order of priority):
 
 Specificity level
 - inline > id > class > attribute
+
+## Inheritance
+
+[index.html](coder/index.html)
+[heranca.html](coder/heranca.html)
+[google fonts](https://fonts.google.com/)
+
+- Some styles are passed for child elements
+- The css highest specificity overrides the other. It is worth for inheritance
+- Inline style overrides the inherited style
+
+Css styles that are passed to its children
+- font-family
+
+Css styles that aren't passes to its children
+- font-size
+- border
+- padding
+
+- Short hand property (width, style, and color)
+```css
+	selector{
+    	border: solid 3px red;
+	}
+```
+
+- Inheriting some property explicitly which are not inherited by default
+```css
+	selector{
+		border: inherit;
+		padding: inherit;
+	}
+```
+
+- Explicity inheritance is not widely used.

@@ -232,11 +232,11 @@ Css styles that aren't passes to its children
 
 Pagging shorthands
 ```css
-	padding: 5px; /* 5 px of padding in up, right, down, and left*/
-	margin: 5px; /* 5 px of margin in up, right, down, and left*/
-	padding-top: 5px; /* 5 px of padding in up*/
-	padding: 5px 10px; /* 5 px of padding in up and down, 10 in left and right*/
-	padding: 1px 2px 3px 4px; /* 1 px in up; 2 in righ; 3 in down, 4 in left*/
+	padding: 5px; /* 5 px of padding in top, right, bottom, and left*/
+	margin: 5px; /* 5 px of margin in top, right, bottom, and left*/
+	padding-top: 5px; /* 5 px of padding in top*/
+	padding: 5px 10px; /* 5 px of padding in top and bottom, 10 in left and right*/
+	padding: 1px 2px 3px 4px; /* 1 px in top; 2 in righ; 3 in bottom, 4 in left*/
 ```
 
 Properties
@@ -245,3 +245,20 @@ Properties
 		float: left /* each element concat to the left of each outer elements*/
 	}
 ```
+
+## Margin Collapse
+
+[index.html](coder/index.html)
+[margin.html](coder/margin.html)
+
+It is an effect: margins overlap
+
+- Occurs when there's an empty elem between other two not none elem with margin
+
+```css
+	padding-bottom: 5px; /* 5 px of padding in bottom*/
+```
+
+How to prevent this behavior?
+- Absolute position
+- inline display: block

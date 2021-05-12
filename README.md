@@ -218,3 +218,20 @@ Css styles that aren't passes to its children
 ```
 
 - Explicity inheritance is not widely used.
+
+## Box model
+
+- Margin -> Border -> Padding -> Content
+- Maring is the distance of the element to the other
+- Border is between Margin and Padding
+- Padding is the distance of the content to the border
+- Content is the content itself
+
+Pagging shorthands
+```css
+	padding: 5px; /* 5 px of padding in up, right, down, and left*/
+	margin: 5px; /* 5 px of margin in up, right, down, and left*/
+	padding-top: 5px; /* 5 px of padding in up*/
+	padding: 5px 10px; /* 5 px of padding in up and down, 10 in left and right*/
+	padding: 1px 2px 3px 4px; /* 1 px in up; 2 in righ; 3 in down, 4 in left*/
+```

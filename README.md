@@ -222,7 +222,7 @@ Css styles that aren't passes to its children
 ## Box model
 
 [index.html](coder/index.html)
-[box.html](coder/box.html)
+[box.html](coder/display.html)
 
 - Margin -> Border -> Padding -> Content
 - Maring is the distance of the element to the other
@@ -235,7 +235,7 @@ Pagging shorthands
 	padding: 5px; /* 5 px of padding in top, right, bottom, and left*/
 	margin: 5px; /* 5 px of margin in top, right, bottom, and left*/
 	padding-top: 5px; /* 5 px of padding in top*/
-	padding: 5px 10px; /* 5 px of padding in top and bottom, 10 in left and right*/
+	padding: 5px 10px; /* 5 px in top and bottom; 10 in left and right*/
 	padding: 1px 2px 3px 4px; /* 1 px in top; 2 in righ; 3 in bottom, 4 in left*/
 ```
 
@@ -262,3 +262,15 @@ It is an effect: margins overlap
 How to prevent this behavior?
 - Absolute position
 - inline display: block
+
+
+## Display Property
+
+[index.html](coder/index.html)
+[margin.html](coder/margin.html)
+
+- display block: break line, allows width, heigth;
+
+- display inline: keep line, doesn't allow width, heidth;
+
+- display inline-block: keep line, allows width, heigth

@@ -274,3 +274,21 @@ How to prevent this behavior?
 - display inline: keep line, doesn't allow width, heidth;
 
 - display inline-block: keep line, allows width, heigth
+
+## Heigth and Width
+
+[index.html](coder/index.html)
+[margin.html](coder/alturaLargura.html)
+
+- By default, body and html tags have height according to elements inside them
+
+- The percent heigth works if ... 
+1. its parent is big enough or...
+2. has heidth=100%/or big enough
+
+- To sove this problem of measures in %, set html and body with 100%
+
+- By default, body fills the whole width, but doesn't the whole height
+
+- Absolute measures always are considered
+- Percent(%) measures works if the element it is in was big enough
